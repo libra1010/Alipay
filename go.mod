@@ -1,4 +1,4 @@
-module github.com/smartwalle/alipay/v3
+module github.com/libra1010/alipay
 
 require (
 	github.com/smartwalle/ncrypto v1.0.4
