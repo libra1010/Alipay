@@ -695,6 +695,8 @@ type ExtendParams struct {
 	CardType             string `json:"card_type"`               // 可选 卡类型
 	SpecifiedSellerName  string `json:"specified_seller_name"`   // 可选 特殊场景下，允许商户指定交易展示的卖家名称
 	OrigTotalAmount      string `json:"orig_total_amount"`       // 可选 外部订单金额。
+	//是否进行资金冻结，用于后续分账，true表示资金冻结，false或不传表示资金不冻结
+	RoyaltyFreeze string `json:"royalty_freeze"`
 }
 
 type Merchant struct {
